@@ -55,13 +55,13 @@ describe("Board", function() {
     ]);
   });
 
-  // xdescribe("Board with minor diagonal conflicts", function() {
-  //   verifyConflictTypes(['minorDiagonal', 'queens'], [
-  //     [0, 0, 1, 0],
-  //     [0, 0, 0, 0],
-  //     [1, 0, 0, 0],
-  //     [0, 0, 0, 0]
-  //   ]);
-  // });
+  describe("Board with minor diagonal conflicts", function() {
+    verifyConflictTypes(['minorDiagonal', 'queens'], [
+      [0, 0, 1, 0],
+      [0, 0, 0, 0],
+      [1, 0, 0, 0],
+      [0, 0, 0, 0]
+    ]);
+  });
 
 });
